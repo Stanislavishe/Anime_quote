@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         viewModel.load()
         viewModel.loadQuote.onEach {
-            binding.mainText.text = it
+            it.show(binding.mainText)
         }.launchIn(lifecycleScope)
     }
 }
