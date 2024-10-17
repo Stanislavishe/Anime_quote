@@ -5,9 +5,11 @@ plugins {
 dependencies {
     implementation(project(":domain"))
 
-    implementation(libs.retrofit)
-    implementation(libs.moshi)
-    implementation(libs.converter.moshi)
-    implementation(libs.moshi.kotlin)
+    api(libs.retrofit)
+    api(libs.moshi)
+    api(libs.converter.moshi)
+    api(libs.moshi.kotlin)
     ksp(libs.moshi.kotlin.codegen)
+
+    implementation(libs.javax.inject)
 }
