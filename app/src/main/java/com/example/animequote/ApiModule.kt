@@ -1,6 +1,6 @@
 package com.example.animequote
 
-import com.example.data.AnimeApi
+import com.example.mock.AnimeApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

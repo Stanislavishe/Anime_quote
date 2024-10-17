@@ -1,6 +1,6 @@
 package com.example.animequote
 
-import com.example.data.AnimeRepoImpl
+import com.example.mock.AnimeRepoImpl
 import com.example.domain.AnimeRepository
 import com.example.domain.LoadQuoteResult
 import com.example.presentation.QuoteUIMapper
