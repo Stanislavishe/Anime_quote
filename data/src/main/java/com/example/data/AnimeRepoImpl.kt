@@ -3,7 +3,6 @@ package com.example.data
 import com.example.domain.AnimeRepository
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
-import kotlin.io.path.Path
 
 class AnimeRepoImpl(
     private val api: AnimeApi
